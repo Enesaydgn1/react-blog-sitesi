@@ -1,4 +1,3 @@
-# react-blog-sitesi
 
 ## Json-server başlatma komutları 
 
