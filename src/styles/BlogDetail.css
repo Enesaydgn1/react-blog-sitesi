@@ -1,0 +1,21 @@
+.blogDetail{
+    width: 50%;
+    margin:30px;
+    margin: auto;
+    
+}
+
+.title{
+    border-bottom: 1px solid rgba(160, 155, 155, 0.5);
+    padding: 20px;
+    text-transform: uppercase;
+}
+.content{
+    background-color: rgba(182, 180, 180, 0.24);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.infoUserTop{
+    margin-top: 60px;
+}

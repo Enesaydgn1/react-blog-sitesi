@@ -1,0 +1,115 @@
+.stickyBox {
+  background-color: rgb(231, 227, 227);
+  width: 300px;
+  border: 1px solid rgb(175, 173, 173);
+  margin: 10px;
+}
+
+.stickyBox ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+.stickyBox ul li{
+   margin-top:10px;
+   margin-left: -40px;
+   text-align: center;
+}
+
+.stickyBox ul li:first-child{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center; 
+}
+
+.contentMain {
+  width: 60%;
+  margin-left: 30px;
+}
+
+.blogCard {
+    text-decoration: none;
+    color: #383333;
+    width: 100%;
+    background-color: rgb(159 150 150 / 26%);
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.blogAuthor {
+  margin-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.blogTitle {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.blogContent {
+  width: 70%;
+  height: 70px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Görüntülenecek satır sayısı */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.infoUser {
+  display: flex;
+  align-items: center;
+}
+
+.blogImage {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.blogImage img {
+  margin-top: -130px;
+  width: 200px;
+}
+
+.createdDate {
+  margin-left: 10px;
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+.CreatedBlog {
+  text-decoration: none;
+  color: black;
+}
+
+.CreatedBlog span {
+  margin-right: 20px;
+  margin-top: -20px;
+}
+
+
+@media (max-width: 768px) {
+  .blogImage {
+    display: none;
+  }
+
+  .blogContent{
+    width: 100%;
+  }
+ 
+}
+
+@media (max-width: 960px) {
+  .blogImage {
+    display: none;
+  }
+  .blogContent{
+    width: 100%;
+  }
+ 
+}

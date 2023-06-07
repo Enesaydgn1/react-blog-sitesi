@@ -1,0 +1,80 @@
+.loginPage {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(95, 98, 99, 0.356);
+  height: auto;
+  max-height: 500px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.loginPage label {
+  text-align: left;
+  display: block;
+}
+
+.loginPage h2 {
+  font-size: 30px;
+  color: #020202;
+  margin-bottom: 30px;
+}
+
+.loginPage input {
+  width: 100%;
+  padding: 10px  10px;
+  margin: 15px 0;
+  border:1px solid #858080;
+  box-sizing:border-box;
+  display: block;
+  outline: none;
+}
+
+.loginPage button{
+    background: #0f7275;
+    color: #fff;
+    border:0;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 0px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.alertContainer{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alertSucces{
+  background-color: #0f75257e !important;
+  width: auto;
+  height: 40px;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+.alertError{
+  background-color: #bd39397e !important;
+  width: auto;
+  height: 40px;
+  margin: auto;
+  margin-top: 20px;
+}
+.alertWarning{
+  background-color: #b976117e !important;
+  width: auto;
+  height: 40px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.tabsList{
+  width: 500px;
+  margin:auto ;
+  display: flex;
+  margin-top: 50px ;
+}

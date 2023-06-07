@@ -1,0 +1,36 @@
+.Myblog{
+    width: 90%;
+    margin:30px;
+    margin:0 auto;
+}
+
+.MyblogTitle{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+.noneBlog{
+    text-align: center;
+    width: 90%;
+    margin:30px;
+    color: rgba(184, 34, 34, 0.637);
+}
+
+.butonlar button{
+    padding:5px 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+
+.btnUpdata{
+    background-color: rgb(129, 127, 255);
+
+}
+
+.btnDelete{
+    background-color: rgb(255, 127, 127);
+    margin-left: 20px;
+
+}
